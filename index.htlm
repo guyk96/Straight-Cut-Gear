@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Straight Cut Gear – Performance Gear for Thrill‑Seekers</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home">Straight Cut Gear</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Cut Through the Ordinary</h1>
+      <p>
+        Premium straight‑cut performance gear engineered for riders and
+        thrill‑seekers who demand the best.
+      </p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        At Straight Cut Gear, we push the limits of performance. Born out of a
+        passion for speed and precision, our mission is to equip riders with
+        gear that delivers reliability, strength and style. Every product is
+        designed with straight‑cut accuracy in mind – built to handle high
+        horsepower, high torque and extreme conditions.
+      </p>
+      <p>
+        Whether you're racing on the track, carving twisty mountain roads or
+        cruising on the highway, we have the equipment to keep you protected
+        and elevate your ride.
+      </p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400x300?text=Helmet" alt="Performance helmet">
+          <h3>Performance Helmet</h3>
+          <p>
+            Lightweight carbon‑fiber helmet engineered for aerodynamic
+            efficiency and maximum protection.
+          </p>
+          <a href="#" class="btn-secondary">Learn More</a>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400x300?text=Jacket" alt="Riding jacket">
+          <h3>Riding Jacket</h3>
+          <p>
+            Reinforced leather jacket with built‑in armor and ventilation for
+            comfort on long rides.
+          </p>
+          <a href="#" class="btn-secondary">Learn More</a>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400x300?text=Gloves" alt="Racing gloves">
+          <h3>Racing Gloves</h3>
+          <p>
+            High‑grip gloves with protective knuckle guards for precise
+            control and comfort.
+          </p>
+          <a href="#" class="btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>
+        Have questions about our gear or looking for custom solutions? We'd
+        love to hear from you.
+      </p>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <p class="contact-info">
+        Or email us directly at <a href="mailto:info@straightcutgear.com">info@straightcutgear.com</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Straight Cut Gear. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
